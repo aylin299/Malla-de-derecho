@@ -1,0 +1,59 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #ffeef8;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #b3478f;
+}
+
+.malla {
+  max-width: 900px;
+  margin: auto;
+}
+
+.año {
+  background-color: #fdddf2;
+  border: 2px solid #e6a9d7;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.semestre {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.semestre h3 {
+  color: #b3478f;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff0fa;
+  padding: 10px;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid #e6a9d7;
+  transition: 0.3s;
+}
+
+li:hover {
+  background-color: #f8d7ee;
+}
+
+li.tachado {
+  text-decoration: line-through;
+  color: #888;
+  background-color: #f3f3f3;
+}
